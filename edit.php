@@ -3,6 +3,7 @@
 include_once("config.php");
 
 // Check if form is submitted for user update, then redirect to homepage after update
+// tambah komen
 if(isset($_POST['update']))
 {   
     $id = $_POST['id'];
